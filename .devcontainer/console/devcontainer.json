@@ -5,17 +5,10 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "git.openRepositoryInParentFolders": "always",
-		"dotnet.preferCSharpExtension": true,
-		"csharp.suppressBuildAssetsNotification": true,
-		"csharp.suppressDotnetInstallWarning": true,
-		"csharp.suppressDotnetRestoreNotification": true,
-		"csharp.suppressProjectJsonWarning": true,
-		"omnisharp.disableMSBuildDiagnosticWarning": true
+                "git.openRepositoryInParentFolders": "always"
             },
             "extensions": [
-                "ms-dotnettools.vscode-dotnet-runtime",
-                "ms-dotnettools.csharp"
+                "ms-dotnettools.csdevkit"
             ]
         },
         "codespaces": {
