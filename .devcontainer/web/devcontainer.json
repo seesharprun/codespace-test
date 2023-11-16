@@ -6,7 +6,15 @@
 		"vscode": {
 			"extensions": [
 				"ms-dotnettools.csdevkit"
-			]
+			],
+			"settings": {
+					"dotnetAcquisitionExtension.existingDotnetPath": [
+		{
+			"extensionId": "ms-dotnettools.csharp",
+			"path": "/usr/local/dotnet/7.0.306/sdk"
+		}
+	]
+			}
 		}
 	}
 }
