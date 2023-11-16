@@ -1,5 +1,6 @@
 {
 	"name": "Web application",
+    	"image": "mcr.microsoft.com/dotnet/sdk:8.0",
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
 	"workspaceFolder": "/workspace/projects/web/",
 	"customizations": {
@@ -8,7 +9,9 @@
 				"git.openRepositoryInParentFolders": "always"
 			},
 			"extensions": [
-				"ms-dotnettools.csdevkit"
+                "ms-dotnettools.vscode-dotnet-runtime",
+                "ms-dotnettools.csdevkit",
+                "ms-dotnetools.csharp"
 			]
 		},
 		"codespaces": {
